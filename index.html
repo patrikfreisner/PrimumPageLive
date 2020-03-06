@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PrimumPage</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/brands.min.js" integrity="sha256-JO94/aOGy//cy/zhym7ofmZboTcjghvsYMo8kiC4yWM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script> -->
+<link rel="stylesheet" href="styles.fef9a73565e810fb0624.css"></head>
+
+<body>
+    <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+    <script>
+        (function() {
+            // Retrieve the URL the user was trying to access when receiving the 404.
+            var redirect = sessionStorage.redirect;
+            // Remove the URL from sessionStorage.
+            delete sessionStorage.redirect;
+            // Check if we actually need to redirect.
+            if (redirect && redirect != location.href) {
+                // We need to redirect to the URL the user was trying to access.
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
+    <!-- /Github Pages hack. -->
+
+    <app-root></app-root>
+<script src="runtime-es2015.f80f43fdfe5b65e71027.js" type="module"></script><script src="polyfills-es2015.c83b88cbbb896981bc97.js" type="module"></script><script src="runtime-es5.b955bc8e9160c78c7a86.js" nomodule defer></script><script src="polyfills-es5.57d6e14ec9ae1263aa6a.js" nomodule defer></script><script src="scripts.fd12c80ebcc479d5730a.js" defer></script><script src="main-es2015.6d6882219dc135f19bfe.js" type="module"></script><script src="main-es5.762c3eb6e7f636c843ff.js" nomodule defer></script></body>
+
+</html>
